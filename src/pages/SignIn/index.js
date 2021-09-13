@@ -72,6 +72,7 @@ const SignIn = () => {
             onChange={e => setPassword(e.target.value)}
             placeholder='Password'
             icon={lock}
+            type='password'
           />
         </div>
         <div style={{fontWeight:500}}>Forgot Password</div>

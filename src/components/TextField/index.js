@@ -2,7 +2,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core';
 
-const GeneralTextField = ({value, onChange, placeholder, icon, height=50, width='100%'}) => {
+const GeneralTextField = ({value, onChange, placeholder, icon, height=50, width='100%', type='text'}) => {
   const useStyles = makeStyles({
     inputContainer: {
       width: width,
@@ -56,6 +56,7 @@ const GeneralTextField = ({value, onChange, placeholder, icon, height=50, width=
         onChange={onChange}
         placeholder={placeholder}
         className={classes.input}
+        type={type}
       />
     </div>
   );

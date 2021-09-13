@@ -82,6 +82,7 @@ const SignUp = () => {
             onChange={e => setPassword(e.target.value)}
             placeholder='Password'
             icon={lock}
+            type='password'
           />
         </div>
         <div style={{margin:'20px 0 24px'}}>
